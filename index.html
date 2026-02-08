@@ -1,89 +1,90 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Deals - Best Gadgets for USA</title>
-    <!-- Bootstrap CSS for Professional Look -->
-    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
-    <style>
-        body { background-color: #f8f9fa; }
-        .product-card { transition: 0.3s; border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .product-card:hover { transform: translateY(-5px); }
-        .btn-amazon { background-color: #ff9900; color: white; font-weight: bold; }
-        .btn-alibaba { background-color: #ff6a00; color: white; font-weight: bold; }
-    </style>
+<meta charset="UTF-8">
+<title>TrendUSA – Amazon Style Deals</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eaeaea;
+}
+
+/* Amazon Header */
+.header {
+  background: #131921;
+  color: white;
+  padding: 12px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Product Grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 12px;
+}
+
+/* Product Card */
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.title {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.price {
+  color: #B12704;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin-top: 8px;
+  background: #FFD814;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+</style>
 </head>
+
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">SmartDeals USA</a>
-        </div>
-    </nav>
+<div class="header">TrendUSA</div>
 
-    <!-- Hero Section -->
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1>Best Tech Gadgets & Lifestyle Products</h1>
-            <p class="lead">Handpicked deals from Amazon and Alibaba for you!</p>
-        </div>
-    </header>
+<div class="products">
 
-    <!-- Product Grid -->
-    <div class="container my-5">
-        <div class="row g-4">
-            
-            <!-- Product 1 (Amazon Example) -->
-            <div class="col-md-4">
-                <div class="card h-100 product-card">
-                    <img src="https://via.placeholder.com" class="card-img-top" alt="Product Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Wireless Gaming Mouse</h5>
-                        <p class="card-text text-muted">High-performance gaming mouse for pro players.</p>
-                        <h6 class="text-danger">$29.99</h6>
-                        <!-- Replace # with your Amazon Affiliate Link -->
-                        <a href="YOUR_AMAZON_LINK_HERE" target="_blank" class="btn btn-amazon w-100">Check on Amazon</a>
-                    </div>
-                </div>
-            </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/300">
+    <div class="title">Wireless Gaming Mouse</div>
+    <div class="price">$29.99</div>
+    <a class="btn" href="#">Check on Amazon</a>
+  </div>
 
-            <!-- Product 2 (Alibaba Example) -->
-            <div class="col-md-4">
-                <div class="card h-100 product-card">
-                    <img src="https://via.placeholder.com" class="card-img-top" alt="Product Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Smart Watch Pro</h5>
-                        <p class="card-text text-muted">Waterproof smart watch with heart rate monitor.</p>
-                        <h6 class="text-danger">$45.00</h6>
-                        <!-- Replace # with your Alibaba Affiliate Link -->
-                        <a href="YOUR_ALIBABA_LINK_HERE" target="_blank" class="btn btn-alibaba w-100">Check on Alibaba</a>
-                    </div>
-                </div>
-            </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/300">
+    <div class="title">Smart Watch Pro</div>
+    <div class="price">$59.99</div>
+    <a class="btn" href="#">Check on Amazon</a>
+  </div>
 
-            <!-- Product 3 -->
-            <div class="col-md-4">
-                <div class="card h-100 product-card">
-                    <img src="https://via.placeholder.com" class="card-img-top" alt="Product Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Portable Bluetooth Speaker</h5>
-                        <p class="card-text text-muted">Extra bass and long battery life for outdoor fun.</p>
-                        <h6 class="text-danger">$19.99</h6>
-                        <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="btn btn-amazon w-100">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2024 SmartDeals USA. As an Amazon Associate, I earn from qualifying purchases.</p>
-    </footer>
+</div>
 
 </body>
-      </html>
-  
+</html>
