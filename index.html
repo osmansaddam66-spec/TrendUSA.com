@@ -1,87 +1,83 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>TrendUSA – Amazon Style Deals</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrendUSA</title>
 
 <style>
-body {
-  margin: 0;
+body{
   font-family: Arial, sans-serif;
-  background: #eaeaea;
+  margin:0;
+  background:#f1f3f6;
 }
-
-/* Amazon Header */
-.header {
-  background: #131921;
-  color: white;
-  padding: 12px;
-  font-size: 22px;
-  font-weight: bold;
+header{
+  background:#131921;
+  color:#fff;
+  padding:12px;
+  text-align:center;
+  font-size:20px;
 }
-
-/* Product Grid */
-.products {
-  display: grid;
+.products{
+  display:grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 12px;
-  padding: 12px;
+  gap:12px;
+  padding:12px;
 }
-
-/* Product Card */
-.card {
-  background: white;
-  padding: 10px;
-  border-radius: 6px;
+.product{
+  background:#fff;
+  border-radius:6px;
+  padding:10px;
+  text-align:center;
 }
-
-.card img {
-  width: 100%;
+.product img{
+  width:100%;
+  height:140px;
+  object-fit:cover;
 }
-
-.title {
-  font-size: 14px;
-  margin: 8px 0;
+.title{
+  font-size:14px;
+  margin:6px 0;
 }
-
-.price {
-  color: #B12704;
-  font-weight: bold;
+.price{
+  color:#B12704;
+  font-weight:bold;
 }
-
-.btn {
-  display: block;
-  margin-top: 8px;
-  background: #FFD814;
-  color: black;
-  text-align: center;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 14px;
+.btn{
+  display:block;
+  margin-top:8px;
+  padding:8px;
+  background:#ff9900;
+  color:#000;
+  text-decoration:none;
+  border-radius:4px;
+  font-weight:bold;
 }
 </style>
 </head>
 
 <body>
 
-<div class="header">TrendUSA</div>
+<header>TrendUSA</header>
 
 <div class="products">
 
-  <div class="card">
-    <img src=https://pixabay.com/images/download/x-1868708_1920.jpg>
+  <div class="product">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/09/08/mouse-1868708_640.jpg">
     <div class="title">Wireless Gaming Mouse</div>
-    <div class="price">$29.99</div>
-    <a class="btn" href="#">Check on Amazon</a>
+    <div class="price">৳2,499</div>
+    <a class="btn" href="YOUR_DARAZ_LINK" target="_blank" rel="nofollow noopener">
+      Buy on Daraz
+    </a>
   </div>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/300">
-    <div class="title">Smart Watch Pro</div>
-    <div class="price">$59.99</div>
-    <a class="btn" href="#">Check on Amazon</a>
+  <div class="product">
+    <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/technology-1959938_640.jpg">
+    <div class="title">Smart Headphone</div>
+    <div class="price">৳3,999</div>
+    <a class="btn" href="YOUR_DARAZ_LINK" target="_blank" rel="nofollow noopener">
+      Buy on Daraz
+    </a>
   </div>
 
 </div>
